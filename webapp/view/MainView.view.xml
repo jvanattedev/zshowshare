@@ -1,8 +1,8 @@
 <mvc:View xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" controllerName="zshowshare.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:sv="sap.ui.comp.smartvariants">
     <Page id="page" title="{i18n>title}">
         <content>
-            <sv:SmartVariantManagement id="__SVM01" persistencyKey="fiori.test.application2.view.S4" showShare="true" showExecuteOnSelection="true" entitySet="Customers"/>
-            <smartfilterbar:SmartFilterBar id="sfb" smartVariant="__SVM01" useToolbar="false" entitySet="Customers" persistencyKey="fiori.test.application2.view.S4.FilterBar" enableBasicSearch="true" basicSearchFieldName="CompanyName">
+            <sv:SmartVariantManagement id="__SVM01" persistencyKey="fiori.test.application2.view.S4" showShare="false" showExecuteOnSelection="true" entitySet="CountrySet"/>
+            <smartfilterbar:SmartFilterBar id="sfb" smartVariant="__SVM01" useToolbar="false" entitySet="CountrySet" persistencyKey="fiori.test.application2.view.S4.FilterBar" enableBasicSearch="true" basicSearchFieldName="CompanyName">
             </smartfilterbar:SmartFilterBar>
         </content>
     </Page>
